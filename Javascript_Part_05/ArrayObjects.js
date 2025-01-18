@@ -17,3 +17,5 @@ const friends = [
   },
 ];
 console.log(friends);
+console.log(typeof friends);
+
