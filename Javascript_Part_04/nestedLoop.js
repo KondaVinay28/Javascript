@@ -4,4 +4,4 @@ for (let i = 1; i <= 3; i++) {
     console.log(j);
   }
 }
-console.log("Loop ended");
+// console.log("Loop ended");
