@@ -10,3 +10,9 @@ console.log(greet);
 changeGreet();
 //hello
 //namaste
+
+// function greet() {
+//   return "Congratulations";
+// }
+// const value = greet();
+// console.log(value);

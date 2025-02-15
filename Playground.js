@@ -1,5 +1,5 @@
 /* Dummy */
-//callback hell
+//callback hell with promise
 function task1(callback) {
   setTimeout(() => {
     console.log("task1 completed");
