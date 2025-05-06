@@ -5,7 +5,7 @@ const friends = [
   },
   {
     Name: "Akhil",
-    Skill: "Frondend-Developer",
+    Skill: "Frontend-Developer",
   },
   {
     Name: "Sohel",
