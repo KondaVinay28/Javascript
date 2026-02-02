@@ -7,6 +7,6 @@ let start = ["January", "July", "march", "august"];
 start.shift();
 start.shift();
 start.unshift("june");
-start.unshift("july")
+start.unshift("july");
 console.log(start);
 // output : july, june, march, august
