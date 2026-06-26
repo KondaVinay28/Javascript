@@ -9,7 +9,7 @@ jobs:
   # Clone code 
   steps: 
     - name: Checkout Code
-      uses: actions/checkout@v7
+      uses: actions/checkout@v4
   # Setup Node Environment
     - name: Setup node.js
       uses: actions/setup-node@v4
@@ -22,5 +22,5 @@ jobs:
   # Run Tests
     - name: Run Tests
       run: |
-        npm run
+        npm test
         echo "All Test cases passed!"  
