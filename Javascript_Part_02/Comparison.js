@@ -1,6 +1,6 @@
 //Comparison operators
-let randomNumber = 10;
-if(randomNumber >= 10) {
+let randomNumber = 5;
+if (randomNumber >= 10) {
     console.log("It's greater than the declared number");
 }
 else {
