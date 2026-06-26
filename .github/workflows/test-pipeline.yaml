@@ -3,6 +3,10 @@ on:
   push:
     branches: [main, master]
 
+concurrency:
+  group: ${{ github.workflow}}-${{github.ref}}
+  cancel-in-progress: true
+
 jobs:
   Run-Test-Cases:
     runs-on: ubuntu-latest
